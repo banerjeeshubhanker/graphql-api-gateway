@@ -1,0 +1,12 @@
+{
+  "name": "legacy-rest-api",
+  "version": "1.0.0",
+  "description": "Mock REST API for testing GraphQL Gateway",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
