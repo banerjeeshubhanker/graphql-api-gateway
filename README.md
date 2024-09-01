@@ -4,16 +4,6 @@
 
 This project implements a GraphQL API Gateway that integrates with legacy REST APIs. It unifies multiple API endpoints into a single GraphQL endpoint, making data retrieval more efficient and flexible for modern applications. The gateway uses Apollo Server and Axios to interact with RESTful services and employs DataLoader to optimize data fetching through batching and caching.
 
-## Architecture
-
-![GraphQL API Gateway Architecture](architecture-diagram.png)
-
-**Figure 1: Architecture Diagram**
-
-1. **GraphQL API Gateway**: The central component that interacts with the frontend and handles GraphQL queries and mutations.
-2. **DataLoader**: Optimizes data fetching by batching requests and caching results within a request cycle.
-3. **Legacy REST API**: Represents the backend services that the GraphQL Gateway interacts with, using RESTful endpoints.
-
 ## Features
 
 - **Unified Data Access**: Combines multiple legacy REST API calls into a single GraphQL query.
